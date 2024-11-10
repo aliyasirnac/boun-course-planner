@@ -3,10 +3,7 @@
   import CourseCatalogue from "./lib/CourseCatalogue.svelte";
   import Timetable from "./lib/Timetable.svelte";
   import CourseList from "./lib/CourseList.svelte";
-  import { inject } from "@vercel/analytics";
-  // import GoogleAnalytics from "./lib/GoogleAnalytics.svelte";
-  
-  inject();
+  import GoogleAnalytics from "./lib/GoogleAnalytics.svelte";
 </script>
 
 <main
@@ -27,7 +24,7 @@
   </div>
 </main>
 
-<!-- <GoogleAnalytics /> -->
+<GoogleAnalytics />
 
 <!-- 
   TODO

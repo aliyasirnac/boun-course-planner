@@ -4,6 +4,9 @@
   import Timetable from "./lib/Timetable.svelte";
   import CourseList from "./lib/CourseList.svelte";
   import GoogleAnalytics from "./lib/GoogleAnalytics.svelte";
+  import { inject } from "@vercel/analytics";
+
+  inject();
 </script>
 
 <main
